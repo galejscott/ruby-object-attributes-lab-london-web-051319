@@ -19,5 +19,5 @@ end
 fido = Dog.new("Fido")
 fido.name
 
-snoopy = Dog.genre("")
+snoopy = Dog.genre("Beagle")
 snoopy.breed
