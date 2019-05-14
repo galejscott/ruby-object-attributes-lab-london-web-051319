@@ -7,10 +7,17 @@ class Dog
     @name
   end
   
-  def 
+  def genre(breed)
+    @breed = breed 
+  
+  def breed
+    @breed
 end
 
 
 
 fido = Dog.new("Fido")
 fido.name
+
+snoopy = Dog.genre("")
+snoopy.breed
