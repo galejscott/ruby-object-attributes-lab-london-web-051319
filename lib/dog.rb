@@ -9,9 +9,11 @@ class Dog
   
   def genre(breed)
     @breed = breed 
+  end
   
   def breed
     @breed
+  end
 end
 
 
