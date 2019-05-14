@@ -7,7 +7,7 @@ class Dog
     @name
   end
   
-  def genre(breed)
+  def initialize(breed)
     @breed = breed 
   end
   
@@ -21,5 +21,5 @@ end
 fido = Dog.new("Fido")
 fido.name
 
-snoopy = Dog.genre("Beagle")
+snoopy = Dog.new("Beagle")
 snoopy.breed
